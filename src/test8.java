@@ -8,7 +8,7 @@ public class test8 {
         int index = 0;
         int sum = 0;
         while (str1.indexOf(str2,index) != -1){
-            index = str1.indexOf(str2,index) + 1;
+            index = str1.indexOf(str2,index)+1;
             sum ++;
         }
         System.out.println("出现的次数是：" + sum);
